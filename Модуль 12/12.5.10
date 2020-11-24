@@ -1,0 +1,13 @@
+d = {'day' : 22, 'month' : 6, 'year' : 2015}
+
+print("||".join(d.keys()))
+
+title = input("Введите название книги:")
+author = input("Введите фамилию автора:")
+year = int(input("Введите год издания:"))
+
+book = {'title': title,
+        'author': author,
+        'year': year}
+
+print(book)

@@ -1,0 +1,7 @@
+myfile = open('namefile.txt', 'w')
+myfile.write('tttt')
+print('zzzz', file=myfile)
+# Создали файл, теперь откроем его командой в python:
+print(open('namefile.txt').read())
+# Файл пустой,т.к. запись выолнена не на жесткий диск.
+# Мы можем записать на жесткий. Первый — это метод flush(), а второй — это метод close().
