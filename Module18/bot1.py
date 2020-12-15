@@ -2,7 +2,7 @@
 
 import telebot
 
-TOKEN = '1490297269:AAGJ9-z3zkw7XHqCXuLNW48VzCH-k59f0wQ'  #Токен, полученный при регистрации
+TOKEN = 'Токен, полученный при регистрации' 
 
 bot = telebot.TeleBot(TOKEN)
 
